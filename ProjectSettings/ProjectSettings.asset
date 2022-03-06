@@ -136,8 +136,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 11400000, guid: d66bac9723e42d94c9d727b12b403f23, type: 2}
   - {fileID: 8632100998532764626, guid: c06d692e8f959004aa304409ecd90b47, type: 2}
+  - {fileID: 11400000, guid: d66bac9723e42d94c9d727b12b403f23, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -685,7 +685,9 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: OCULUSINTEGRATION_PRESENT
+    7: OCULUSINTEGRATION_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
