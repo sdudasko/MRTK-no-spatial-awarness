@@ -18,4 +18,8 @@ public class SphereSc : MonoBehaviour
 
         // colorTheme.StateProperties[0].Values[0].Color = Color.green;
     }
+
+    public void Test() {
+        Debug.Log("Ahoj!");
+    }
 }
